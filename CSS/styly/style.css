@@ -37,13 +37,13 @@ body {
     display: flex;
     flex-direction: row;
     margin: 20px 0% 0% 0%;
-    padding: 50px 40px 100px 40px;
+    padding: 50px 20px 100px 20px;
     background-color: #4700CB;
     width: 100%;
 }
 
 .text1, .text2, .text3, .text4 {
-    margin: 80px 10px 0 10px;
+    margin: 80px 0 0 0;
 }
 
 #posledni {
@@ -62,4 +62,16 @@ th, td{
     border:2px solid whitesmoke;
     color: whitesmoke;
     padding: 8px;
+    transition: 0.3s;
+}
+
+th:hover, td:hover{
+    background-color: #4700CB;
+}
+
+.footer {
+    height: 130px;
+    width: 100%;
+    background-color: #4700CB;
+    margin-top: 100px;
 }
