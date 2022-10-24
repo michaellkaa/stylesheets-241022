@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: whitesmoke;
+    background-color: black;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.intro {
+    margin: 0;
+}
+.intro h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    transition: 0.5s;
+}
+
+.intro h1:hover {
+    color: #4700CB;
+}
+
+.intro p {
+    margin: 50px 300px 50px 300px;
+}
+
+.intro img{
+   margin-bottom: 80px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0% 0% 0%;
+    padding: 50px 40px 100px 40px;
+    background-color: #4700CB;
+    width: 100%;
+}
+
+.text1, .text2, .text3, .text4 {
+    margin: 80px 10px 0 10px;
+}
+
+#posledni {
+    color: black
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 50px 50px 50px;
+    font-size: 25px;
+}
+
+th, td{
+    border:2px solid whitesmoke;
+    color: whitesmoke;
+    padding: 8px;
+}
